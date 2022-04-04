@@ -1,0 +1,37 @@
+STANDAR API
+
+{root.api}/{version}.{grouping}/{endpoint}
+SAMPLE :
+http://warongit.my.id/v1/auth/login
+
+======================================================
+GROUP AUTHENTICATION
+[1] = Register
+{root.api}/{version}/auth/Register
+
+req:
+{
+    "name" : "Testing",
+    "email" : "tes@gmail.com",
+    "password" : "12345"
+}
+
+res:
+{
+    "message" : "Register Success",
+    "data" : {
+        "id" : 1,
+        "name" : "Testing",
+        "email" : "tes@gmail.com",
+        "password" : "12345"
+    }
+}
+======================================================
+
+[2] - Login
+{root.api}/{version}/auth/login
+
+req:
+{
+
+}
