@@ -1,1 +1,1 @@
-# mern-blog full server
+# mern-blog-server master
